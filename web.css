@@ -1,0 +1,74 @@
+/* Vibrant multi-color animated background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15, #fd6e6a);
+    background-size: 1000% 1000%;
+    animation: rainbowBG 20s ease infinite;
+  }
+  
+  @keyframes rainbowBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav button {
+    background: #ffffff22;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  nav button:hover {
+    background: #ffffff55;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h2 {
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 5px;
+  }
+  
+  a {
+    color: #a5f3fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

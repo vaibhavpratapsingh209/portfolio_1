@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaibhav's Portfolio</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+
+  <header>
+    <h1>Vaibhav Pratap Singh</h1>
+    <nav>
+      <button onclick="showSection('about')">About Me</button>
+      <button onclick="showSection('socials')">Socials</button>
+      <button onclick="showSection('contact')">Contact Me</button>
+    </nav>
+  </header>
+
+  <div class="content" id="about">
+    <h2>About Me</h2>
+    <p><strong>Branch:</strong> CSE-IOT(3)</p>
+    <p><strong>Year & Semester:</strong> 1st year, 2nd Semester</p>
+    <p>I am a passionate tech enthusiast exploring Internet of Things (IoT), programming, and robotics. I love building creative projects using ESP32, sensors, and web technologies.</p>
+  </div>
+
+  <div class="content hidden" id="socials">
+    <h2>Socials</h2>
+    <ul>
+      <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+      <li><a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+    </ul>
+  </div>
+
+  <div class="content hidden" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:vaibhav@example.com">vaibhav@example.com</a></p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
